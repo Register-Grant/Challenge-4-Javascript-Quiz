@@ -16,7 +16,6 @@ saveHighScore = e => {
     console.log('i clicked the save button');
     e.preventDefault();
 
-    // I'm annoyed that I can't get the scores to show on the high score list
     const score = {
         score: mostRecentScore,
         name: username.value
