@@ -5,12 +5,14 @@ const scoreText = document. getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 const loader = document.getElementById("loader");
 const game = document.getElementById("game");
+const timer = document.getElementById("timer");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+let time = 100;
 
 let questions = []; 
 
@@ -43,9 +45,22 @@ fetch("https://opentdb.com/api.php?amount=10&category=21&difficulty=hard&type=mu
 
 // CONSTANTS
 const CORRECT_BONUS = 10;
+const timePen = 5;
 const MAX_QUESTIONS = 10;
 
+startTimer = () => {
+    setInterval(function() {
+        if (time === 0) {
+    clearInterval;
+    window.location.assign("loser.html");
+        } else {
+        time--;
+        timer.innerHTML = time;
+    }}, 1000)
+};
+
 startGame = () => {
+    startTimer();
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
@@ -90,11 +105,12 @@ choices.forEach(choice => {
         let classToApply = 'incorrect';
         if (selectedAnswer == currentQuestion.answer) {
             classToApply = 'correct';
+            incrementScore(CORRECT_BONUS)
+        } else {
+            console.log("wrong");
+            time = time - timePen;
         }
 
-        if(classToApply === 'correct') {
-            incrementScore(CORRECT_BONUS);
-        }
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
