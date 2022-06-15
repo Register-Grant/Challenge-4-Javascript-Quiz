@@ -1,1 +1,1 @@
-# Javascipt-Quiz---Challenge-4
+# Javascript-Quiz---Challenge-4
