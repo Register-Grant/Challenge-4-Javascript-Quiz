@@ -1,5 +1,6 @@
 const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
+const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
@@ -15,14 +16,15 @@ saveHighScore = e => {
     console.log('i clicked the save button');
     e.preventDefault();
 
-    // I need to fix this from Math.random to actually grab the scorte that I just got
+    // I'm annoyed that I can't get the scores to show on the high score list
     const score = {
-        //score: Math.floor(Math.random() * 100),
+        score: mostRecentScore,
         name: username.value
     };
     highScores.push(score);
-    highScores.sort( (a,b) => b.score - a.score)
+    highScores.sort((a,b) => b.score - a.score);
     highScores.splice(5);
+    console.log(highScores);
 
     localStorage.setItem("highScores", JSON.stringify(highScores));
     window.location.assign("index.html");
