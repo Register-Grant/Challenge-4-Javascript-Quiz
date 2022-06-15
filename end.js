@@ -15,8 +15,9 @@ saveHighScore = e => {
     console.log('i clicked the save button');
     e.preventDefault();
 
+    // I need to fix this from Math.random to actually grab the scorte that I just got
     const score = {
-        score: Math.floor(Math.random() * 100),
+        //score: Math.floor(Math.random() * 100),
         name: username.value
     };
     highScores.push(score);
