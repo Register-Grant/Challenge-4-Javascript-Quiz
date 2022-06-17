@@ -26,7 +26,7 @@ THEN I can save my initials and score
 2. [GitHub Repository](https://github.com/Register-Grant/Challenge-4-Javascript-Quiz)
 
 ## Assets
-The following image demonstrates, sort of, the web application's appearance and functionality:
+The following images demonstrate, sort of, the web application's appearance and functionality:
 
 ![This is what one of the webpages currently looks like.](.assets/images/quiz_start_screenshot.png)
 ![This is what another one of the webpages currently looks like.](.assets/images/question_with_score_progress_and_timer_screenshot.png)
