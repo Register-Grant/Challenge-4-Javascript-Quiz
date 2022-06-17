@@ -1,4 +1,4 @@
-# Javascript-Quiz---Challenge-4
+# Challenge-4-Javascript-Quiz
 
 ## User Story: 
 AS A coding boot camp student
