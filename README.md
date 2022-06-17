@@ -28,8 +28,8 @@ THEN I can save my initials and score
 ## Assets
 The following images demonstrate, sort of, the web application's appearance and functionality:
 
-![This is what one of the webpages currently looks like.](.assets/images/quiz_start_screenshot.png)
-![This is what another one of the webpages currently looks like.](.assets/images/question_with_score_progress_and_timer_screenshot.png)
-![This is what another one of the webpages currently looks like.](.assets/images/score_and_username_input_screenshot.png)
-![This is what another one of the webpages currently looks like.](.assets/images/high_scores_list_screenshot.png)
-![This is what another one of the webpages currently looks like.](.assets/images/time_ran_out_loser_screenshot.png)
+![This is what one of the webpages currently looks like.](./assets/images/quiz_start_screenshot.PNG)
+![This is what another one of the webpages currently looks like.](./assets/images/question_with_score_progress_and_timer_screenshot.PNG)
+![This is what another one of the webpages currently looks like.](./assets/images/score_and_username_input_screenshot.PNG)
+![This is what another one of the webpages currently looks like.](./assets/images/high_scores_list_screenshot.PNG)
+![This is what another one of the webpages currently looks like.](./assets/images/time_ran_out_loser_screenshot.PNG)
