@@ -21,11 +21,15 @@ WHEN the game is over
 THEN I can save my initials and score
 ```
 
-## Link to Live Site and GitHub Repository
+## Links to Live Site and GitHub Repository
 1. [Sports Quiz](https://register-grant.github.io/Challenge-4-Javascript-Quiz/)
 2. [GitHub Repository](https://github.com/Register-Grant/Challenge-4-Javascript-Quiz)
 
 ## Assets
 The following image demonstrates, sort of, the web application's appearance and functionality:
 
-![This is what our webpage currently looks like.](./assets/images/kkg_screenshot.png)
+![This is what one of the webpages currently looks like.](./assets/quiz_start_screenshot.png)
+![This is what another one of the webpages currently looks like.](./assets/question_with_score_progress_and_timer_screenshot.png)
+![This is what another one of the webpages currently looks like.](./assets/score_and_username_input_screenshot.png)
+![This is what another one of the webpages currently looks like.](./assets/high_scores_list_screenshot.png)
+![This is what another one of the webpages currently looks like.](./assets/time_ran_out_loser_screenshot.png)
